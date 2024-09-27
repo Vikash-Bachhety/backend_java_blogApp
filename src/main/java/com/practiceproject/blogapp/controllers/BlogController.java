@@ -19,7 +19,7 @@ import com.practiceproject.blogapp.entity.Blog;
 import com.practiceproject.blogapp.services.BlogService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://frontend-java-blog-app.vercel.app/")
 @RequestMapping("/blogs")
 
 public class BlogController {
